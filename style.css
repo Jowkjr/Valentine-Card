@@ -152,7 +152,7 @@ input#open {
   top: 180px;
   left: 120px;
   -webkit-transform: rotate(-45deg);
-  -webkit-animation: 0.8s beat infinite;
+  /* -webkit-animation: 0.8s beat infinite; */
 }
 
 .heart:before,
@@ -209,10 +209,10 @@ input#open {
   left: 165px;
   box-shadow: -40px 0 #333;
   -webkit-transform-origin: 50%;
-  -webkit-animation: close 2s infinite;
+  /* -webkit-animation: close 2s infinite; */
 }
 
-@-webkit-keyframes close {
+/* @-webkit-keyframes close {
   0% {
     -webkit-transform: scale(1, 0.05);
   }
@@ -243,4 +243,4 @@ input#open {
   60% {
     -webkit-transform: scale(1.1) rotate(-45deg);
   }
-}
+} */
