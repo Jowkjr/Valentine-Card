@@ -17,8 +17,8 @@ input#open {
   position: relative;
   width: 300px;
   height: 300px;
-  transform-style: preserve-3d;
-  transform: perspective(2500px);
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: perspective(2500px);
   transition: 0.3s;
 }
 
@@ -27,7 +27,7 @@ input#open {
   background-color: #fff0f3;
   width: 300px;
   height: 300px;
-  transform-origin: left;
+  -webkit-transform-origin: left;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.15), 30px 0 50px rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.3s;
 }
@@ -212,7 +212,7 @@ input#open {
   -webkit-animation: close 2s infinite;
 }
 
-@keyframes close {
+@-webkit-keyframes close {
   0% {
     -webkit-transform: scale(1, 0.05);
   }
@@ -227,7 +227,7 @@ input#open {
   }
 }
 
-@keyframes beat {
+@-webkit-keyframes beat {
   0% {
     -webkit-transform: scale(1) rotate(-45deg);
   }
